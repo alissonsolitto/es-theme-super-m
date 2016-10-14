@@ -1,0 +1,239 @@
+<!--
+theme name:	Super M
+version:		1.0
+author:			Alisson Solitto
+email:			
+website:		
+license:		
+based on:		"Carbon" by Eric Hettervik and "spare" by mattrixk
+-->
+
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+  <view name="system, basic, detailed">
+
+    <image name="background_pattern" extra="true">
+      <path>./_art/images/home.png</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <size>1 1</size>
+    </image>
+    
+    <image name="background_help" extra="true">
+      <path>./_art/images/bg_color.png</path>
+      <origin>0 1</origin>
+      <pos>0 1</pos>
+      <size>1 0.070</size>
+      <color>FFFFFF99</color>
+    </image>
+
+    <helpsystem name="help">
+      <textColor>0060b8</textColor>
+      <iconColor>f5001e</iconColor>
+      <fontPath>./_art/fonts/Roboto-Medium.ttf</fontPath>
+      <fontSize>0.03</fontSize>
+    </helpsystem>
+
+  </view>
+
+	<view name="basic">
+  
+  	<image name="background_pattern" extra="true">
+			<path>./_art/images/basic.jpg</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+    </image>
+
+		<image name="background_logo" extra="true">
+			<path>./_art/images/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 0.18</size>
+			<color>FFFFFF99</color>
+		</image>
+
+    <image name="logo">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.09</pos>
+      <maxSize>0.4 0.16</maxSize>
+    </image>
+
+		<image name="background_gamelist" extra="true">
+			<path>./_art/images/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0.05 0.2</pos>
+			<size>0.9 0.71</size>
+			<color>FFFFFF99</color>
+		</image>
+    
+    <textlist name="gamelist">
+      <selectorColor>0060b8</selectorColor>
+      <selectedColor>FFFFFF</selectedColor>        
+      <primaryColor>0060b8</primaryColor>        
+      <secondaryColor>888888</secondaryColor>        
+      <fontPath>./_art/fonts/Roboto-Medium.ttf</fontPath>
+      <pos>0.05 0.2</pos>
+      <size>0.9 0.71</size>
+      <fontSize>0.04</fontSize>
+      <scrollSound>./_art/scrollSound.wav</scrollSound>
+    </textlist>
+	</view>
+
+	<view name="detailed">
+      
+    <image name="background_pattern" extra="true">
+			<path>./_art/images/detailed.jpg</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>			
+    </image>
+      
+      <image name="background_logo" extra="true">
+        <path>./_art/images/bg_color.png</path>
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 0.18</size>
+        <color>FFFFFF99</color>
+      </image>
+
+      <image name="logo">
+        <origin>0.5 0.5</origin>
+        <pos>0.5 0.09</pos>
+        <maxSize>0.4 0.16</maxSize>
+      </image>      
+      
+      <image name="background_logo_gamelist" extra="true">
+        <path>./_art/images/bg_color.png</path>
+        <origin>0 0</origin>
+        <pos>0.01 0.2</pos>
+        <size>0.62 0.62</size>
+        <color>FFFFFF99</color>
+      </image>      
+
+			<textlist name="gamelist">
+				<selectorColor>0060b8</selectorColor>
+        <selectedColor>FFFFFF</selectedColor>        
+        <primaryColor>0060b8</primaryColor>        
+        <secondaryColor>888888</secondaryColor>        
+        <fontPath>./_art/fonts/Roboto-Medium.ttf</fontPath>
+				<pos>0.01 0.2</pos>
+        <size>0.62 0.62</size>
+				<fontSize>0.04</fontSize>
+				<horizontalMargin>0.01</horizontalMargin>
+        <scrollSound>./_art/scrollSound.wav</scrollSound>
+			</textlist>
+      
+      <image name="md_image">
+        <origin>0.5 0.5</origin>
+        <pos>0.815 0.51</pos>
+        <maxSize>0.33 0.58</maxSize>
+      </image>
+		
+      <image name="background_metadata" extra="true">
+        <path>./_art/images/bg_color.png</path>
+        <origin>0 0</origin>
+        <pos>0.01 0.83</pos>
+        <size>0.98 0.09</size>
+        <color>FFFFFF99</color>
+      </image>
+
+			<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+				<color>0060b8</color>
+				<forceUppercase>1</forceUppercase>
+				<fontPath>./_art/fonts/Roboto-Medium.ttf</fontPath>
+				<fontSize>0.03</fontSize>
+				<size>0.24 0.01</size>
+			</text>
+
+			<text name="md_developer, md_publisher, md_genre, md_players, md_playcount">
+				<color>f5001e</color>
+				<forceUppercase>0</forceUppercase>
+				<fontPath>./_art/fonts/Roboto-Medium.ttf</fontPath>
+				<fontSize>0.03</fontSize>
+				<size>0.23 0.02</size>
+			</text>
+      
+			<datetime name="md_releasedate, md_lastplayed">
+				<color>f5001e</color>
+				<forceUppercase>0</forceUppercase>
+				<fontPath>./_art/fonts/Roboto-Medium.ttf</fontPath>
+				<fontSize>0.03</fontSize>
+				<size>0.23 0.02</size>
+			</datetime>
+      
+      <text name="md_lbl_rating">
+        <pos>0.02 0.85</pos>
+      </text>
+      <rating name="md_rating">
+        <pos>0.095 0.835</pos>
+        <size>0.23 0.03</size>
+        <filledPath>./_art/images/star_full.png</filledPath>
+        <unfilledPath>./_art/images/star_hollow.png</unfilledPath>
+      </rating>      
+      
+      <text name="md_lbl_players">
+        <pos>0.26 0.85</pos>
+      </text>
+      <text name="md_players">
+        <pos>0.36 0.845</pos>
+      </text>
+      
+      <text name="md_lbl_playcount">
+        <pos>0.5 0.85</pos>
+      </text>
+      <text name="md_playcount">
+        <pos>0.62 0.845</pos>
+      </text>
+
+      <text name="md_lbl_lastplayed">
+        <pos>0.74 0.85</pos>
+      </text>
+      <datetime name="md_lastplayed">
+        <pos>0.855 0.845</pos>
+      </datetime>      
+      
+      <text name="md_lbl_genre">
+        <pos>0.02 0.89</pos>
+      </text>
+      <text name="md_genre">
+        <pos>0.095 0.885</pos>
+      </text>
+
+      <text name="md_lbl_developer">
+        <pos>0.26 0.89</pos>
+      </text>
+      <text name="md_developer">
+        <pos>0.36 0.885</pos>
+      </text>      
+      
+      <text name="md_lbl_publisher">
+        <pos>0.5 0.89</pos>
+      </text>
+      <text name="md_publisher">
+        <pos>0.62 0.885</pos>
+      </text>
+      
+      <text name="md_lbl_releasedate">
+        <pos>0.74 0.89</pos>
+      </text>
+      <datetime name="md_releasedate">
+        <pos>0.855 0.885</pos>
+      </datetime> 
+      
+      <text name="md_description">
+				<pos>0.0 0.0</pos>
+				<size>0.0 0.0</size>
+				<color>FFFFFF99</color>
+				<fontPath>./_art/fonts/Roboto-Light.ttf</fontPath>			
+        <fontSize>0.0</fontSize>
+				<alignment>left</alignment>
+				<forceUppercase>0</forceUppercase>
+				<lineSpacing>0</lineSpacing>
+			</text>  
+	
+  </view>
+  
+</theme>
