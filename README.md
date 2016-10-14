@@ -16,13 +16,13 @@ Tutorial: ([RetroPie] (https://github.com/retropie/retropie-setup/wiki/Creating-
 
 # Capturas de Tela
 Visão da tela inicial
-![Spare Theme Basic View](https://github.com/alissonsolitto/es-theme-super-m/blob/master/screenshot/system.png)
+![Spare Theme Basic View](https://github.com/alissonsolitto/es-theme-super-m/blob/master/_art/screenshot/system.png)
 
 Visão da tela de jogos básica
-![Spare Theme Basic View](https://github.com/alissonsolitto/es-theme-super-m/blob/master/screenshot/basic.png)
+![Spare Theme Basic View](https://github.com/alissonsolitto/es-theme-super-m/blob/master/_art/screenshot/basic.png)
 
 Visão da tela de jogos detalhada
-![Spare Theme Basic View](https://github.com/alissonsolitto/es-theme-super-m/blob/master/screenshot/detailed.png)
+![Spare Theme Basic View](https://github.com/alissonsolitto/es-theme-super-m/blob/master/_art/screenshot/detailed.png)
 
 # Atualizações
 - 14/10/2016 Versão Inicial
